@@ -1,0 +1,17 @@
+print("Personal Info:")
+
+first_name=input("enter your first name: ")
+m_i=input("Next, enter your middle inital: ")
+last_name=input("Next, enter your last name: ")
+s_a=input("Next, enter your Street Address: ")
+city=input("Next, What city you live in?: ")
+state_ab=input("Next, enter your State Abbreviation: ")
+zip_code=input("Next, enter your Zip Code: ")
+phone_number=input("Next, enter your Phone Number: ")
+em=input("Next, enter your Email Address: ")
+
+print(f"{first_name} {m_i} {last_name}")
+print(f"{s_a}")
+print(f"{city} {state_ab} {zip_code}")
+print(f"{phone_number}")
+print(f"{em}")
